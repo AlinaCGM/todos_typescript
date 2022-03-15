@@ -55,8 +55,9 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <span className="heading">ToDo App</span>
-      
-      <input value={textSearch} type="search" onChange={filter} className='search' placeholder='Search Todos'/> 
+      <div className='search' >
+      <input value={textSearch} type="search" onChange={filter} className='search-box' placeholder='Search Todos'/> 
+      </div>
     <div >
         {searchResults && searchResults.length > 0 ? (
           searchResults.map((todos:any) => (
