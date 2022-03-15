@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRef } from "react";
-import { MdDoneOutline, MdOutlineEdit, MdOutlineDelete, MdOutlineFilter } from "react-icons/md";
+import { MdDoneOutline, MdOutlineEdit, MdOutlineDelete } from "react-icons/md";
 import { Text } from "../interfaces/interface";
 
 const OneTodo: React.FC<{
